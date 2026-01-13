@@ -6,9 +6,12 @@
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="mobile-web-app-status-bar-style" content="default">
     <title>KooraQ - Professional Device Repair Service | Connect with Verified Experts</title>
-    <meta name="description" content="Professional device and electrical repair services with verified experts. Fast same-day service in 50+ cities. Smartphone, laptop, appliance repair and more.">
-    <meta name="keywords" content="device repair, electrical repair, appliance repair, smartphone repair, laptop repair, verified experts, home repair service">
+    <meta name="description" content="KooraQ connects you with verified electricians and device repair experts near you. Get affordable, reliable doorstep repair for smartphones, laptops, TVs, refrigerators, washing machines, ACs, microwaves, and all electrical appliances. Available in 50+ cities across India. Book now!">
+    <meta name="keywords" content="device repair near me, electrician near me, appliance repair service, smartphone repair, mobile phone repair, laptop repair, computer repair, TV repair, refrigerator repair, washing machine repair, AC repair, microwave repair, electrical repair, home appliance repair, doorstep repair service, verified electrician, trusted technician, affordable repair, same day repair, emergency electrician, electrical services India, home repair service, professional electrician, certified technician, appliance service center, electronic repair, gadget repair, quick repair service, reliable repair expert, KooraQ">
     <meta name="author" content="KooraQ">
+    <meta name="geo.region" content="IN">
+    <meta name="geo.placename" content="India">
+    <meta name="language" content="English">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://kooraq.me/">
     <link rel="icon" type="image/png" href="images/favicon.png">
@@ -16,14 +19,19 @@
     
     <meta property="og:title" content="KooraQ - Professional Device & Electrical Repair Services">
     <meta property="og:description" content="Connect with verified repair experts for fast, affordable, and reliable service. Available 24/7 in 50+ cities.">
-    <meta property="og:image" content="https://kooraq.me/images/KooraQ%20logo.png">
+    <meta property="og:image" content="https://kooraq.me/images/favicon.png">
+    <meta property="og:image:alt" content="KooraQ Logo - Professional Repair Services">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
     <meta property="og:url" content="https://kooraq.me/">
     <meta property="og:type" content="website">
     
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="KooraQ - Professional Device & Electrical Repair Services">
     <meta name="twitter:description" content="Connect with verified repair experts for fast, affordable, and reliable service.">
-    <meta name="twitter:image" content="https://kooraq.me/images/KooraQ%20logo.png">
+    <meta name="twitter:image" content="https://kooraq.me/images/favicon.png">
+    <meta name="twitter:image:alt" content="KooraQ Logo - Professional Repair Services">
     
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
@@ -285,25 +293,44 @@
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
       "name": "KooraQ",
-      "description": "Professional device and electrical repair services with verified experts",
+      "alternateName": "KooraQ Repair Services",
+      "description": "Professional device and electrical repair services with verified experts. Doorstep repair for smartphones, laptops, TVs, refrigerators, washing machines, ACs and all electrical appliances.",
       "url": "https://kooraq.me",
       "email": "kooraq.com@gmail.com",
-      "image": "https://kooraq.me/images/KooraQ%20logo.png",
+      "image": "https://kooraq.me/images/favicon.png",
+      "logo": "https://kooraq.me/images/favicon.png",
       "address": {
         "@type": "PostalAddress",
         "addressCountry": "IN"
       },
-      "areaServed": {
-        "@type": "City",
-        "name": "India"
+      "areaServed": [
+        {"@type": "Country", "name": "India"},
+        {"@type": "Text", "name": "50+ Cities across India"}
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Repair Services",
+        "itemListElement": [
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Smartphone Repair"}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Laptop Repair"}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "TV Repair"}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Refrigerator Repair"}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Washing Machine Repair"}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "AC Repair"}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Microwave Repair"}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Electrical Repair"}},
+          {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Home Appliance Repair"}}
+        ]
       },
-      "serviceType": ["Device Repair", "Electrical Repair", "Appliance Repair"],
-      "priceRange": "Affordable",
-      "operatingHours": "Mo,Tu,We,Th,Fr,Sa,Su 08:00-22:00",
-      "serviceArea": {
-        "@type": "City",
-        "name": "50+ Cities"
-      }
+      "priceRange": "₹₹",
+      "openingHours": "Mo,Tu,We,Th,Fr,Sa,Su 08:00-22:00",
+      "telephone": "+91-XXXXXXXXXX",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "500"
+      },
+      "slogan": "Expert Repair Services at Your Doorstep"
     }
     </script>
 </head>
@@ -513,8 +540,77 @@
         </div>
     </section>
 
-    <section class="py-12 bg-gray-50">
+    <section id="services" class="py-12 bg-gray-50">
         <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-800 mb-4">Our Repair Services</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Expert repair services for all your devices and appliances at affordable prices
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 mb-20">
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow text-center">
+                    <i class="fas fa-mobile-alt text-4xl text-primary mb-3"></i>
+                    <h3 class="font-semibold text-gray-800 mb-1">Smartphone Repair</h3>
+                    <p class="text-sm text-gray-600">Screen, battery, charging port</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow text-center">
+                    <i class="fas fa-laptop text-4xl text-primary mb-3"></i>
+                    <h3 class="font-semibold text-gray-800 mb-1">Laptop Repair</h3>
+                    <p class="text-sm text-gray-600">Hardware, software, upgrades</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow text-center">
+                    <i class="fas fa-tv text-4xl text-primary mb-3"></i>
+                    <h3 class="font-semibold text-gray-800 mb-1">TV Repair</h3>
+                    <p class="text-sm text-gray-600">LED, LCD, Smart TV issues</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow text-center">
+                    <i class="fas fa-snowflake text-4xl text-primary mb-3"></i>
+                    <h3 class="font-semibold text-gray-800 mb-1">Refrigerator Repair</h3>
+                    <p class="text-sm text-gray-600">Cooling, compressor, leaks</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow text-center">
+                    <i class="fas fa-wind text-4xl text-primary mb-3"></i>
+                    <h3 class="font-semibold text-gray-800 mb-1">AC Repair</h3>
+                    <p class="text-sm text-gray-600">Installation, gas filling, service</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow text-center">
+                    <i class="fas fa-blender text-4xl text-primary mb-3"></i>
+                    <h3 class="font-semibold text-gray-800 mb-1">Washing Machine</h3>
+                    <p class="text-sm text-gray-600">Front & top load repair</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow text-center">
+                    <i class="fas fa-fire text-4xl text-primary mb-3"></i>
+                    <h3 class="font-semibold text-gray-800 mb-1">Microwave Repair</h3>
+                    <p class="text-sm text-gray-600">Heating, turntable, door</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow text-center">
+                    <i class="fas fa-bolt text-4xl text-primary mb-3"></i>
+                    <h3 class="font-semibold text-gray-800 mb-1">Electrical Work</h3>
+                    <p class="text-sm text-gray-600">Wiring, switches, fixtures</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow text-center">
+                    <i class="fas fa-water text-4xl text-primary mb-3"></i>
+                    <h3 class="font-semibold text-gray-800 mb-1">Water Purifier</h3>
+                    <p class="text-sm text-gray-600">RO service, filter change</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow text-center">
+                    <i class="fas fa-plus text-4xl text-primary mb-3"></i>
+                    <h3 class="font-semibold text-gray-800 mb-1">& Many More</h3>
+                    <p class="text-sm text-gray-600">All home appliances</p>
+                </div>
+            </div>
+            
             <div class="text-center mb-16">
                 <h2 class="text-4xl font-bold text-gray-800 mb-4">Why Choose KooraQ?</h2>
                 <p class="text-xl text-gray-600 max-w-3xl mx-auto">
